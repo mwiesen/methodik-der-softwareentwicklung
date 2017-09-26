@@ -90,7 +90,13 @@ Formuliere Algorithmen in natürlicher Sprache
 
 +++
 
-> Dies ist ein tolles Zitat!
+```javascript
+//Dies ist ein Codeblock
+
+var i;
+i = 3;
+
+```
 
 +++
 
@@ -108,8 +114,8 @@ Formuliere Algorithmen in natürlicher Sprache
 
 ### Definition
 
-Ein _Programmablaufplan_ (PAP) ist ein Ablaufdiagramm für ein Computerprogramm, das auch als Flussdiagramm (engl. flowchart) oder Programmstrukturplan bezeichnet wird.  
-Es ist eine graphische Darstellung zur Umsetzung eines Algorithmus in einem Programm und beschreibt die Folge von Operationen zur Lösung einer Aufgabe.
+> Ein _Programmablaufplan_ (PAP) ist ein Ablaufdiagramm für ein Computerprogramm, das auch als Flussdiagramm (engl. flowchart) oder Programmstrukturplan bezeichnet wird.  
+> Es ist eine graphische Darstellung zur Umsetzung eines Algorithmus in einem Programm und beschreibt die Folge von Operationen zur Lösung einer Aufgabe.
 
 +++
 
