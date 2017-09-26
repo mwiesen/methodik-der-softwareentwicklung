@@ -1,0 +1,5 @@
+slide-number: true
+
+theme: beige
+
+theme-override : assets/css/PITCHME.css
