@@ -90,6 +90,10 @@ Formuliere Algorithmen in natürlicher Sprache
 
 +++
 
+> Dies ist ein tolles Zitat!
+
++++
+
 ### Warum Algorithmen grafisch darstellen?
 
 - "Ein Bild sagt mehr als tausend Worte"  
