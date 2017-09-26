@@ -63,8 +63,8 @@ div.slide-background.present[data-background-hash]:not([data-background-hash*="p
 
 .reveal li code, .reveal p code {
     border-radius: 5px;
-    background-color: #1d1f21;
+    background-color: #c7c4b2;
     padding-left: 0.2em;
     padding-right: 0.2em;
-    color: #c5c8c6;
+    color: #8b743d;
 }

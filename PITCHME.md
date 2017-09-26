@@ -1,4 +1,4 @@
-###### Methoden der Softwareentwicklung
+###### Methodik der Softwareentwicklung
 
 # Programmablauf- pläne (flowcharts)
 
@@ -6,7 +6,7 @@
 
 ### Abgrenzung
 
-- Methoden der Softwareentwicklung
+- Methodik der Softwareentwicklung
   - Algorithmen entwerfen
   - Fehler finden
 - Algorithmen und Datenstrukturen
@@ -69,7 +69,7 @@
 
 ### Wie findet man einen Algorithmus?
 
-„Übung macht den Meister“
+> Übung macht den Meister...
 
 +++
 
