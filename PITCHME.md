@@ -1,18 +1,12 @@
-###### Methoden der Softwareentwicklung
+###### Methodik der Softwareentwicklung
 
-## Programmablaufpläne (flowcharts)
-
----
-
-## Algorithmen
+# Programmablauf- pläne (flowcharts)
 
 +++
 
 ### Abgrenzung
 
-
-
-- Methoden der Softwareentwicklung
+- Methodik der Softwareentwicklung
   - Algorithmen entwerfen
   - Fehler finden
 - Algorithmen und Datenstrukturen
@@ -21,12 +15,16 @@
 - C
   - Algorithmen implementieren
 
+---
+
+# Algorithmen
+
 +++
 
 ### Definition
 
-Ein _Algorithmus_ ist eine _eindeutige Handlungsvorschrift_ zur Lösung eines Problems. Algorithmen bestehen aus _endlich vielen_, _wohldefinierten Einzelschritten_.  
-Damit können sie zur Ausführung in einem Computerprogramm implementiert, aber auch in menschlicher Sprache formuliert werden. Bei der Problemlösung wird eine bestimmte Eingabe in eine bestimmte Ausgabe überführt.
+> Ein _Algorithmus_ ist eine _eindeutige Handlungsvorschrift_ zur Lösung eines Problems. Algorithmen bestehen aus _endlich vielen_, _wohldefinierten Einzelschritten_.  
+> Damit können sie zur Ausführung in einem Computerprogramm implementiert, aber auch in menschlicher Sprache formuliert werden. Bei der Problemlösung wird eine bestimmte Eingabe in eine bestimmte Ausgabe überführt.
 
 +++
 
@@ -69,9 +67,9 @@ Damit können sie zur Ausführung in einem Computerprogramm implementiert, aber 
 
 +++
 
-## Wie findet man einen Algorithmus?
+### Wie findet man einen Algorithmus?
 
-„Übung macht den Meister“
+> Übung macht den Meister...
 
 +++
 
@@ -86,7 +84,7 @@ Formuliere Algorithmen in natürlicher Sprache
 
 ---
 
-## Programmablaufpläne
+# Programmablauf- pläne
 
 +++
 
@@ -104,8 +102,8 @@ Formuliere Algorithmen in natürlicher Sprache
 
 ### Definition
 
-Ein _Programmablaufplan_ (PAP) ist ein Ablaufdiagramm für ein Computerprogramm, das auch als Flussdiagramm (engl. flowchart) oder Programmstrukturplan bezeichnet wird.  
-Es ist eine graphische Darstellung zur Umsetzung eines Algorithmus in einem Programm und beschreibt die Folge von Operationen zur Lösung einer Aufgabe.
+> Ein _Programmablaufplan_ (PAP) ist ein Ablaufdiagramm für ein Computerprogramm, das auch als Flussdiagramm (engl. flowchart) oder Programmstrukturplan bezeichnet wird.  
+> Es ist eine graphische Darstellung zur Umsetzung eines Algorithmus in einem Programm und beschreibt die Folge von Operationen zur Lösung einer Aufgabe.
 
 +++
 
