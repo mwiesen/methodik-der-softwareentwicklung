@@ -88,15 +88,6 @@ Formuliere Algorithmen in natürlicher Sprache
 
 +++
 
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
-+++
-
 ### Warum Algorithmen grafisch darstellen?
 
 - "Ein Bild sagt mehr als tausend Worte"  
