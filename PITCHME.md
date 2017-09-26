@@ -1,16 +1,10 @@
 ###### Methoden der Softwareentwicklung
 
-## Programmablaufpläne (flowcharts)
-
----
-
-## Algorithmen
+# Programmablaufpläne (flowcharts)
 
 +++
 
 ### Abgrenzung
-
-
 
 - Methoden der Softwareentwicklung
   - Algorithmen entwerfen
@@ -20,6 +14,10 @@
   - Alogrithmen verbessern
 - C
   - Algorithmen implementieren
+
+---
+
+# Algorithmen
 
 +++
 
@@ -69,7 +67,7 @@ Damit können sie zur Ausführung in einem Computerprogramm implementiert, aber 
 
 +++
 
-## Wie findet man einen Algorithmus?
+### Wie findet man einen Algorithmus?
 
 „Übung macht den Meister“
 
@@ -86,18 +84,17 @@ Formuliere Algorithmen in natürlicher Sprache
 
 ---
 
-## Programmablaufpläne
+# Programmablaufpläne
 
 +++
 
 ```javascript
-//Dies ist ein Codeblock
-
-var i;
-i = 3;
-
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
 ```
-
 +++
 
 ### Warum Algorithmen grafisch darstellen?
