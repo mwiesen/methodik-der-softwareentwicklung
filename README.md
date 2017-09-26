@@ -10,6 +10,6 @@ Für Änderungsvorschläge bitte das Repository [forken](https://guides.github.c
 
 ## Infos
 
-Als [Student](https://education.github.com/) könnt ihr euch das https://education.github.com/pack schnappen. Es beinhaltet einen kostenfreien [Developer account](https://github.com/pricing/developer) auf GitHub sowie zahlreiche andere Software und Cloud-Dienste.
+Als [Student](https://education.github.com/) könnt ihr euch das [Student Developer Pack](https://education.github.com/pack) schnappen. Es beinhaltet einen kostenfreien [Developer account](https://github.com/pricing/developer) auf GitHub sowie zahlreiche andere Software und Cloud-Dienste.
 
 Wer noch nie programmiert hat, dem lege ich  [codecademy](https://www.codecademy.com) ans Herz, z.B. den [Learn Java Kurs](https://www.codecademy.com/learn/learn-java). Java ist zwar nicht C, aber die Syntax ist ähnlich und ihr lernt in ein paar Studen Grundzüge der Programmierung.
