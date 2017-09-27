@@ -6,6 +6,11 @@
 }
 */
 
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
 /*
 div.slide-background.present[data-background-hash]:not([data-background-hash*="pagerduty.github.io/gitpitch-deck"]) {
   opacity: 0.45;
