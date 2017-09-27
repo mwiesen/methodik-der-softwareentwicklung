@@ -69,5 +69,5 @@ div.slide-background.present[data-background-hash]:not([data-background-hash*="p
 }
 
 .reveal blockquote {
-    width: 80;
+    width: 80%;
 }
