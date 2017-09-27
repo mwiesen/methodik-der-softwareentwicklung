@@ -1,11 +1,5 @@
-/*
-.reveal section img {
-  border: none;
-  background: none;
-  box-shadow: none;
-}
-*/
 
+/* No borders around images*/
 .reveal section img {
   border: 0;
   box-shadow: none;
@@ -78,4 +72,5 @@ div.slide-background.present[data-background-hash]:not([data-background-hash*="p
 .reveal blockquote {
     width: 100%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
 }
