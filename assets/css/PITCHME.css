@@ -72,5 +72,5 @@ div.slide-background.present[data-background-hash]:not([data-background-hash*="p
 .reveal blockquote {
     width: 100%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    padding: 20px;
 }
