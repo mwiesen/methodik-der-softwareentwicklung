@@ -238,9 +238,9 @@ Die Syntax der Variablendeklaration ist daher wie folgt:
 
 ### Beispiele Datentyp
 
-Bsp. Datentyp (PAP): `Zahl`, `Index`, `Name`, `Wort`, `Zeichenkette`, `Satz`
+PAP: `Zahl`, `Index`, `Name`, `Wort`, `Zeichenkette`, `Satz`
 
-Bsp. Datentyp (C): `short`, `int`, `float`, `double`, `char`
+C: `short`, `int`, `float`, `double`, `char`
 
 ### Beispiele Variablendeklaration
 
