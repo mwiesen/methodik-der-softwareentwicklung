@@ -344,8 +344,8 @@ Bsp: `int eingabewerte[5]`, `Name a[3]`
 Das Feld `a` kann drei Werte speichern. Diese werden mit `a[0]`, `a[1]` und `a[2]` angesprochen. Die Zahl in der Klammer wird Index genannt.
 
 Wichtig:
-- Der erste Wert hat den Index `0`
-- Das letzte Wert eines Felds der Länge `n` hat den Wert `n-1`
+- Der erste Wert hat den Index `0` (nicht `1` !)
+- Das letzte Wert eines Felds der Länge `n` hat den Index `n-1` (nicht `n` !)
 
 +++
 
@@ -360,16 +360,46 @@ Bsp: `a[0] = 253`, `a[1] = 254` etc.
 Der Index kann auch eine Variable sein. Bsp:
 
 ```
-int i
-i = 0 
+int i = 0
 a[i] = 25
 ```
 
 +++
 
-Zur automatisierten Zuweisung von Werten wird für den Index meist eine Variable verwendet. Bsp:
+### Felder und Schleifen
 
+Verwendet man für den Index eines Feldes eine Variable, die in einer Schleife alle Index-Werte durchläuft (z.B. von `0` bis `n-1`), so kann die Handhabung der im Feld gespeicherten Werte automatisiert werden. Bsp:
 
-Einem Listenelement kann auch ein Ausdruck zugewiesen werden. Bsp:
+```
+PAP einfügen
+```
 
-`a[i] = z+2`, `a[i+1] = b[j]+1`
++++
+
+### Übung 3
+
+Erstelle einen Programm-ablaufplan, der das Maximum von 10 natürlichen Zahlen ausgibt.
+
+Übergeben wird ein Feld vom Typ Zahl der Länge 10
+
++++
+
+### Übung 4
+
+Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem Feld Liste enthalten ist.
+
+  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+
++++
+
+### Übung 5
+
+Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmter Name erstmals in einem Feld vorkommt.
+
+  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+
+### Übung 6
+
+Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in einem Feld enthalten ist.
+
+  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
