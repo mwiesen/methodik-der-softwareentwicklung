@@ -335,6 +335,8 @@ Die Länge des Felds bestimmt die Anzahl der Werte. In C müssen bei der Deklara
 
 Syntax: `Datentyp Feldname[Länge]`
 
++++
+
 ### Beispiele Felddeklaration
 
 Bsp: `int eingabewerte[5]`, `Name a[3]`
@@ -344,6 +346,8 @@ Das Feld `a` kann drei Werte speichern. Diese werden mit `a[0]`, `a[1]` und `a[2
 Wichtig:
 - Der erste Wert hat den Index `0`
 - Das letzte Wert eines Felds der Länge `n` hat den Wert `n-1`
+
++++
 
 ### Felder - Wertzuweisung
 
