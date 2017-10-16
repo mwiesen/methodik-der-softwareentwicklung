@@ -212,12 +212,29 @@ Erstelle einen Programmablaufplan, der das Maximum dreier Zahlen `a`, `b` und `c
 
 +++
 
-### Übung 1 - Lösung A
+### Übung 1 - Lösung ohne Zwischenspeicher
 
 <img src="assets/images/ex-maxdreizahlen-a.png" style="width: auto; height: 550px">
 
 +++
 
-### Übung 1 - Lösung B
+### Übung 1 - Lösung mit Zwischenspeicher
 
 <img src="assets/images/ex-maxdreizahlen-b.png" style="width: auto; height: 550px">
+
++++
+
+### Variablen
+
+Variablen sind Platzhalter für einen Wert. Dieser Platz (Speicherbereich) wird bei der Deklaration für die Variable reserviert. Damit der Wert der Variable korrekt interpretiert werden kann, wird in C der Typ der Variable angegeben (Datentyp). Die Syntax bei einer Variablendeklaration ist daher wie folgt:
+
+Variablen-Typ  Variablen-Name
+
++++
+
+### Variablen - Beispiele
+
+`Zahl maximum`, `Index i`, `Name vorname` 
+
+Typ: `Zahl`, `Index`, `Name`, `Wort`, `Satz` oder auch `int,` `double` etc.  (evtl. in einem Kommentar näher beschreiben)
+Name: aussagekräftiger Name für die Variable (alphanumerisch)
