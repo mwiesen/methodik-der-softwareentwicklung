@@ -266,31 +266,36 @@ Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
 
 ### Wertzuweisung I
 
-- Nach der Deklaration haben Variablen noch keinen bestimmten Wert. Dieser muss ihnen erst zugewiesen werden.
-- Die Syntax dazu lautet wie folgt:
-  `Variablenname = Wert`
-- Beispiele:  `maximum = 3`,  `vorname = „Stefan“`
-- Einer Variable können beliebig oft (neue) Werte zugewiesen werden
+Nach der Deklaration haben Variablen noch keinen bestimmten Wert. Dieser muss ihnen erst zugewiesen werden.
+
+Syntax: `Variablenname = Wert`
+
+Beispiele:  `maximum = 3`,  `vorname = „Stefan“`
+
+Einer Variable können beliebig oft (neue) Werte zugewiesen werden
 
 
 +++
 
 ### Wertzuweisung II
 
-- Der Wert einer Variable kann einer anderen Variable zugewiesen werden:
-- Beispiel: `maximum = z`
-  Hier wird der Wert von `z` `maximum` zugewiesen, d.h. der Wert von `maximum` wird mit dem Wert von `z` überschrieben. Danach haben beiden Variablen den Wert von `z`.
-- Es ändert sich _immer_ der Wert der _linken_ Variable, _nie_ der Wert der _rechten_ Variable!
+Der Wert einer Variable kann einer anderen Variable zugewiesen werden.
+
+Beispiel: `maximum = z`
+
+Hier wird der Wert von `z` `maximum` zugewiesen, d.h. `maximum` wird mit dem Wert von `z` überschrieben. Danach haben beiden Variablen den Wert von `z`.
+
+Es ändert sich _immer_ der Wert der _linken_ Variable, _nie_ der Wert der _rechten_ Variable!
 
 +++
 
 ### Ausdrücke I
 
-- Vor der Zuweisung, kann der Wert einer Variablen durch die **Auswertung** eines **Ausdrucks** berechnet werden.
-- Die Syntax lautet ist:
-  `Variable  =  Ausdruck`
-- Beispiel:  `z = 5 + 7 - 3`
-  `z` ist hierbei die Variable und `5 + 7 - 3` ist der Ausdruck. Dieser wird zunächst ausgewertet und ergibt den Wert `9`, welcher dann der Variable `z` zugewiesen wird.
+Vor der Zuweisung, kann der Wert einer Variablen durch die **Auswertung** eines **Ausdrucks** berechnet werden.
+
+Beispiel:  `z = 5 + 7 - 3`
+
+Der Ausdruck `5 + 7 - 3` wird ausgewertet und ergibt den Wert `9`. Dieser wird dann der Variable `z` zugewiesen.
 
 +++
 
@@ -300,7 +305,7 @@ Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
   - `maximum = z + 5`
 	- `maximum = (3 * z * z) + (5 * z) - 12`
 
-- Eine Variable kann auch in dem Ausdruck enthalten sein, der ihr zugewiesen wird:
+- Eine Variable kann auch selbst in dem Ausdruck enthalten sein, der ihr zugewiesen wird:
 - Beispiel: `z = z + 1`
   Hier wird der Wert von `z` erst um `1` erhöht und dann `z` zugewiesen.
 
