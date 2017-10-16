@@ -285,7 +285,7 @@ Beispiel: `maximum = z`
 
 Hier wird der Wert von `z` `maximum` zugewiesen, d.h. `maximum` wird mit dem Wert von `z` überschrieben. Danach haben beiden Variablen den Wert von `z`.
 
-Es ändert sich _immer_ der Wert der _linken_ Variable, _nie_ der Wert der _rechten_ Variable!
+Wichtig: Es ändert sich _immer_ der Wert der _linken_ Variable, _nie_ der Wert der _rechten_ Variable!
 
 +++
 
@@ -301,11 +301,11 @@ Der Ausdruck `5 + 7 - 3` wird ausgewertet und ergibt den Wert `9`. Dieser wird d
 
 ### Ausdrücke II
 
-Ausdrücke können Variablen beinhalten:
+Ausdrücke können Variablen beinhalten. Beispiele:
 
-Beispiel: `maximum = z + 5`
+`maximum = z + 5`
 
-Beispiel: `maximum = (3 * z * z) + (5 * z) - 12`
+`maximum = (3 * z * z) + (5 * z) - 12`
 
 Eine Variable kann auch selbst in dem Ausdruck enthalten sein, der ihr zugewiesen wird:
 
