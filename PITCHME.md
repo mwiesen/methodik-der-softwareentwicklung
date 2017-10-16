@@ -232,15 +232,25 @@ Damit C den Wert der Variable korrekt interpretieren kann, müsst ihr zusätzlic
 
 Die Syntax der Variablendeklaration ist daher wie folgt:
 
-> Datentyp Leerzeichen Variablenname
+`Datentyp` `Variablenname`
 
 +++
 
-### Beispiele Datentyp
+### Beispiele
 
-C: `short`, `int`, `float`, `double`, `char`
+Datentyp: (Kommentare helfen!)
 
-PAP: `Zahl`, `Index`, `Name`, `Wort`, `Satz`
+- C: `short`, `int`, `float`, `double`, `char`
+- PAP: `Zahl`, `Index`, `Name`, `Wort`, `Satz`
+
+Name: (alphanumerisch)
+
+- `i`, `pi`, `erster_buchstabe`, `maximum`, `vorname`
+- Klein geschrieben
+- Keine Leerzeichen
+
++++
+
 
 ### Beispiele Variablendeklaration
 
