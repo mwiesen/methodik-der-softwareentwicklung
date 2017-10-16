@@ -24,7 +24,7 @@
 ### Definition
 
 > Ein _Algorithmus_ ist eine _eindeutige Handlungsvorschrift_ zur Lösung eines Problems.
->
+
 > Algorithmen bestehen aus _endlich vielen_, _wohldefinierten Einzelschritten_.
 > Damit können sie zur Ausführung in einem Computer-programm implementiert, aber auch in menschlicher Sprache formuliert werden.
 > Bei der Problemlösung wird eine bestimmte Eingabe in eine bestimmte Ausgabe überführt.
