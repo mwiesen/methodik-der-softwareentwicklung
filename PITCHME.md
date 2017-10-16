@@ -177,9 +177,9 @@ Formuliere Algorithmen in natürlicher Sprache
 
 - Ermöglichen unterschiedliche Reaktion auf Eingaben
 
-- Verzweigen Programmfluss nach Wenn-Dann-Prinzip
+- Verzweigen den Programmfluss nach dem Wenn-Dann-Prinzip
 
-- Enthaltene Ausdrücke müssen auf Ja (`true` bzw. `1`) oder Nein (`false` bzw. `0`) auswerten
+- Enthaltene Ausdrücke müssen auf Ja (`true`, `1`) oder Nein (`false`, `0`) auswerten
 
 - Bsp: `i == 10` oder `x < 5`
 
@@ -206,7 +206,7 @@ Formuliere Algorithmen in natürlicher Sprache
 
 ### Übung 1
 
-Erstelle einen Programmablaufplan, der das Maximum dreier Zahlen `a`, `b` und `c` ausgibt.
+Erstelle einen Programmablaufplan, der das Maximum dreier natürlicher Zahlen `a`, `b` und `c` ausgibt.
 
 +++
 
@@ -268,7 +268,7 @@ Nach der Deklaration haben Variablen noch keinen bestimmten Wert. Dieser muss ih
 
 Syntax: `Variablenname = Wert`
 
-Beispiele:  `maximum = 3`,  `vorname = „Stefan“`
+Bsp:  `maximum = 3`,  `vorname = „Stefan“`
 
 Einer Variable können beliebig oft (neue) Werte zugewiesen werden
 
@@ -279,7 +279,7 @@ Einer Variable können beliebig oft (neue) Werte zugewiesen werden
 
 Der Wert einer Variable kann einer anderen Variable zugewiesen werden.
 
-Beispiel: `maximum = z`
+Bsp: `maximum = z`
 
 Hier wird der Wert von `z` `maximum` zugewiesen, d.h. `maximum` wird mit dem Wert von `z` überschrieben. Danach haben beiden Variablen den Wert von `z`.
 
@@ -291,7 +291,7 @@ Wichtig: Es ändert sich _immer_ der Wert der _linken_ Variable, _nie_ der Wert 
 
 Einer Variable kann ein Wert durch die **Auswertung** eines **Ausdrucks** zugewiesen werden.
 
-Beispiel:  `z = 5 + 7 - 3`
+Bsp:  `z = 5 + 7 - 3`
 
 Der Ausdruck `5 + 7 - 3` wird ausgewertet und ergibt den Wert `9`. Dieser wird dann der Variable `z` zugewiesen.
 
@@ -299,7 +299,7 @@ Der Ausdruck `5 + 7 - 3` wird ausgewertet und ergibt den Wert `9`. Dieser wird d
 
 ### Ausdrücke II
 
-Ausdrücke können Variablen beinhalten. Beispiele:
+Ausdrücke können Variablen beinhalten. Bsp:
 
 `maximum = z + 5`
 
@@ -307,12 +307,24 @@ Ausdrücke können Variablen beinhalten. Beispiele:
 
 Eine Variable kann auch selbst in dem Ausdruck enthalten sein, der ihr zugewiesen wird:
 
-Beispiel: `z = z + 1`
+Bsp: `z = z + 1`
 
 Hier wird der Wert von `z` erst um `1` erhöht und dann `z` zugewiesen.
 
 +++
 
+### Ausdrücke III
 
+**Boolsche Ausdrücke** sind Ausdrücke die entweder Ja (`true`, `1`) oder Nein (`false`, `0`) ergeben.
+
+Bsp: `i1 == 3`, `maximum < a`, `stop_loop != true`
+
+Abfragen repräsentieren Entscheidungen und müssen boolsche Ausdrücke enthalten.
+
++++
+
+### Übung 2
+
+Erstelle einen Programmablaufplan, der das Maximum der vier natürlichen Zahlen `a`, `b`, `c` und `d` ausgibt.
 
 +++
