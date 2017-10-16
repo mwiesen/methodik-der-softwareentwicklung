@@ -224,7 +224,7 @@ Erstelle einen Programmablaufplan, der das Maximum dreier Zahlen `a`, `b` und `c
 
 +++
 
-### Variablen / Variablendeklaration
+### Variablen
 
 Variablen sind **Platzhalter** für einen Wert. C schafft diesen Platz (im RAM) bei der **Variablendeklaration**.
 
@@ -261,6 +261,29 @@ Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
 - Alphanumerisch
 - Klein geschrieben
 - Keine Leerzeichen (besser: Unterstrich `_`)
+
++++
+
+### Wertzuweisung I
+
+Nach der Deklaration haben Variablen noch keinen bestimmten Wert. Dieser muss ihnen erst zugewiesen werden. Die Syntax dazu lautet wie folgt:
+
+`Variablenname`  `=` `Wert`
+
+Beispiele:  `maximum = 3`,  `vorname = „Stefan“`
+
+Einer Variable können beliebig oft (neue) Werte zugewiesen werden
+
+
++++
+
+### Wertzuweisung II
+
+Der Wert einer Variable kann einer anderen Variable zugewiesen werden:
+
+Beispiel: `maximum = z`
+
+Hier wird der Wert von `z` `maximum` zugewiesen, d.h. der Wert von `maximum` wird mit dem Wert von `z` überschrieben. Danach haben beiden Variablen den Wert von `z`. Es ändert sich also _immer_ der Wert der _linken_ Variable und _nie_ der Wert der _rechten_ Variable! 
 
 +++
 
