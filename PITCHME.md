@@ -291,7 +291,7 @@ Es ändert sich _immer_ der Wert der _linken_ Variable, _nie_ der Wert der _rech
 
 ### Ausdrücke I
 
-Vor der Zuweisung, kann der Wert einer Variablen durch die **Auswertung** eines **Ausdrucks** berechnet werden.
+Einer Variable kann ein Wert durch die **Auswertung** eines **Ausdrucks** zugewiesen werden.
 
 Beispiel:  `z = 5 + 7 - 3`
 
@@ -301,13 +301,17 @@ Der Ausdruck `5 + 7 - 3` wird ausgewertet und ergibt den Wert `9`. Dieser wird d
 
 ### Ausdrücke II
 
-- Weitere Beispiele:
-  - `maximum = z + 5`
-	- `maximum = (3 * z * z) + (5 * z) - 12`
+Ausdrücke können Variablen beinhalten:
 
-- Eine Variable kann auch selbst in dem Ausdruck enthalten sein, der ihr zugewiesen wird:
-- Beispiel: `z = z + 1`
-  Hier wird der Wert von `z` erst um `1` erhöht und dann `z` zugewiesen.
+Beispiel: `maximum = z + 5`
+
+Beispiel: `maximum = (3 * z * z) + (5 * z) - 12`
+
+Eine Variable kann auch selbst in dem Ausdruck enthalten sein, der ihr zugewiesen wird:
+
+Beispiel: `z = z + 1`
+
+Hier wird der Wert von `z` erst um `1` erhöht und dann `z` zugewiesen.
 
 +++
 
