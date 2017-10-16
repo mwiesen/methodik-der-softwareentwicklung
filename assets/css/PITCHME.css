@@ -56,7 +56,9 @@ div.slide-background.present[data-background-hash]:not([data-background-hash*="p
   min-width: 75%;
 }
 
-
+.reveal {
+  font-size: 32px;
+}
 
 .reveal .slide-background {
   background-position: 0% 50%;
