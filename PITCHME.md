@@ -239,11 +239,14 @@ Die Syntax der Variablendeklaration ist daher wie folgt:
 
 ### Beispiele Variablendeklaration
 
-C: `int i1`, `float pi`, `char erster_buchstabe`
+`int i1`
+`float pi`
+`char erster_buchstabe`
 
 PAP: `Zahl maximum`, `Index i2`, `Name vorname` 
 
 Danach kann die Variable in Operationen und Abfragen frei verwendet werden:
+
 `maximum = 3`, `i1 > 0` oder `vorname == „Thomas“`
 
 +++
