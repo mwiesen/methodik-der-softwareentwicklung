@@ -242,12 +242,14 @@ Die Syntax der Variablendeklaration ist daher wie folgt:
 `int i1`
 `float pi`
 `char erster_buchstabe`
-
-PAP: `Zahl maximum`, `Index i2`, `Name vorname` 
+`Zahl maximum`
+`Index i2`
+`Name vorname` 
 
 Danach kann die Variable in Operationen und Abfragen frei verwendet werden:
+Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
 
-`maximum = 3`, `i1 > 0` oder `vorname == „Thomas“`
+`maximum = 3` `i1 > 0` `vorname == „Thomas“`
 
 +++
 
