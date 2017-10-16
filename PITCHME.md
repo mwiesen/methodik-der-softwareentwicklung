@@ -236,30 +236,31 @@ Die Syntax der Variablendeklaration ist daher wie folgt:
 
 +++
 
-### Beispiele
-
-Datentyp: (Kommentare helfen!)
-
-- C: `short`, `int`, `float`, `double`, `char`
-- PAP: `Zahl`, `Index`, `Name`, `Wort`, `Satz`
-
-Name: (alphanumerisch)
-
-- `i`, `pi`, `erster_buchstabe`, `maximum`, `vorname`
-- Klein geschrieben
-- Keine Leerzeichen
-
-+++
-
 
 ### Beispiele Variablendeklaration
 
-C: `int i`, `float pi`, `char first_letter`
+C: `int i1`, `float pi`, `char erster_buchstabe`
 
-PAP: `Zahl maximum`, `Index i`, `Name vorname` 
+PAP: `Zahl maximum`, `Index i2`, `Name vorname` 
+
+Danach kann die Variable in Operationen und Abfragen frei verwendet werden:
+`maximum = 3`, `i1 > 0` oder `vorname == „Thomas“`
 
 +++
 
-Typ: `Zahl`, `Index`, `Name`, `Wort`, `Satz` oder auch `int,` `double` etc.  (evtl. in einem Kommentar näher beschreiben)
+### Beispiele Datentyp
 
-Name: aussagekräftiger Name für die Variable (alphanumerisch)
+- C: `short`, `int`, `float`, `double`, `char`
+- PAP: `Zahl`, `Index`, `Name`, `Wort`, `Satz`
+- Kommentare zur Variablendeklaration schaden nicht!
+
++++
+
+### Beispiele Variablenname:
+
+- `i1`, `pi`, `erster_buchstabe`, `maximum`, `vorname`
+- Alphanumerisch
+- Klein geschrieben
+- Keine Leerzeichen (besser: Unterstrich `_`)
+
++++
