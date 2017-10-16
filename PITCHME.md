@@ -224,13 +224,11 @@ Erstelle einen Programmablaufplan, der das Maximum dreier natürlicher Zahlen `a
 
 ### Variablen
 
-Variablen sind **Platzhalter** für einen Wert. C schafft diesen Platz (im RAM) bei der **Variablendeklaration**.
+Variablen sind **Platzhalter** für einen Wert.
 
-Damit C den Wert der Variable korrekt interpretieren kann, müsst ihr zusätzlich einen **Datentyp** angegeben.
+C schafft diesen Platz (im RAM) bei der **Variablendeklaration**. Damit C den Wert der Variable korrekt interpretieren kann, müsst ihr zusätzlich einen **Datentyp** angegeben.
 
-Die Syntax der Variablendeklaration ist daher wie folgt:
-
-`Datentyp Variablenname`
+Syntax: `Datentyp Variablenname`
 
 +++
 
@@ -331,25 +329,29 @@ Erstelle einen Programmablaufplan, der das Maximum der vier natürlichen Zahlen 
 
 ### Felder (arrays)
 
-Ein Feld ist eine Variable die mehrere Werte speichern kann. Die Länge des Felds bestimmt die Anzahl der Werte. In C müssen bei der Deklaration Datentyp und Länge angegeben werden:
+Ein Feld ist eine Variable die mehrere Werte speichern kann.
+
+Die Länge des Felds bestimmt die Anzahl der Werte. In C müssen bei der Deklaration Datentyp und Länge angegeben werden:
 
 Syntax: `Datentyp Feldname[Länge]`
 
+### Beispiele Felddeklaration
+
 Bsp: `int eingabewerte[5]`, `Name a[3]`
 
-Das Feld `a` kann drei Werte speichern. Diese werden mit `a[0]`, `a[1]` und `a[2]` angesprochen. Die Zahl in der Klamme wird Index genannt.
-
-+++
-
-### Felder und Indizes
+Das Feld `a` kann drei Werte speichern. Diese werden mit `a[0]`, `a[1]` und `a[2]` angesprochen. Die Zahl in der Klammer wird Index genannt.
 
 Wichtig:
-- Der erste Wert hat immer den Index `0`
-- Das letzte Wert einer Liste der Länge `n` hat immer den Wert `n-1`
+- Der erste Wert hat den Index `0`
+- Das letzte Wert eines Felds der Länge `n` hat den Wert `n-1`
 
-Syntax Wertzuweisung: `Feldname[Index] = Wert`
+### Felder - Wertzuweisung
 
-Bsp: `a[0] = 253`
+Wie bei Variablen, können Feldern mit `=` Werte zugewiesen werden.
+
+Syntax: `Feldname[Index] = Wert`
+
+Bsp: `a[0] = 253`, `a[1] = 254` etc.
 
 Der Index kann auch eine Variable sein. Bsp:
 
@@ -358,6 +360,11 @@ int i
 i = 0 
 a[i] = 25
 ```
+
++++
+
+Zur automatisierten Zuweisung von Werten wird für den Index meist eine Variable verwendet. Bsp:
+
 
 Einem Listenelement kann auch ein Ausdruck zugewiesen werden. Bsp:
 
