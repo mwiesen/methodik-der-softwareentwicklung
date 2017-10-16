@@ -228,19 +228,27 @@ Erstelle einen Programmablaufplan, der das Maximum dreier Zahlen `a`, `b` und `c
 
 Variablen sind **Platzhalter** für einen Wert. C schafft diesen Platz (im RAM) bei der **Variablendeklaration**.
 
-Damit C den Wert der Variable korrekt interpretieren kann, müsst ihr zusätzlich einen **Datentyp** angegeben. Die Syntax der Variablendeklaration ist daher wie folgt:
+Damit C den Wert der Variable korrekt interpretieren kann, müsst ihr zusätzlich einen **Datentyp** angegeben.
 
-*Datentyp Leerzeichen Variablenname*
+Die Syntax der Variablendeklaration ist daher wie folgt:
 
-Bsp. Datentyp (PAP): `Zahl`, `Index`, `Name`, `Wort`, `Zeichenkette`
-
-Bsp. Datentyp (C): `short`, `int`, `float`, `double`, `char` 
+> Datentyp Leerzeichen Variablenname
 
 +++
 
-### Variablen - Beispiele
+### Beispiele Datentyp
+
+Bsp. Datentyp (PAP): `Zahl`, `Index`, `Name`, `Wort`, `Zeichenkette`, `Satz`
+
+Bsp. Datentyp (C): `short`, `int`, `float`, `double`, `char`
+
+### Beispiele Variablendeklaration
 
 `Zahl maximum`, `Index i`, `Name vorname` 
+
+`int i`, `float pi`, `char first_letter`
+
++++
 
 Typ: `Zahl`, `Index`, `Name`, `Wort`, `Satz` oder auch `int,` `double` etc.  (evtl. in einem Kommentar näher beschreiben)
 
