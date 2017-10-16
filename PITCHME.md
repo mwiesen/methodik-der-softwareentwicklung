@@ -179,11 +179,9 @@ Formuliere Algorithmen in natürlicher Sprache
 
 - Verzweigen Programmfluss nach Wenn-Dann-Prinzip
 
-- Exakt definiert. Enthaltene Ausdrücke müssen auf
+- Enthaltene Ausdrücke müssen auf Ja (`true` bzw. `1`) oder Nein (`false` bzw. `0`) auswerten
 
-  - Ja (`true` bzw. `1`) oder 
-  - Nein (`false` bzw. `0`) auswerten  
-    Bsp: `i == 10` oder `x < 5`
+- Bsp: `i == 10` oder `x < 5`
 
 +++?image=assets/images/papdef-schleife.png&size=40%
 
@@ -314,5 +312,7 @@ Beispiel: `z = z + 1`
 Hier wird der Wert von `z` erst um `1` erhöht und dann `z` zugewiesen.
 
 +++
+
+
 
 +++
