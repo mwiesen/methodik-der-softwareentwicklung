@@ -315,11 +315,11 @@ Hier wird der Wert von `z` erst um `1` erhöht und dann `z` zugewiesen.
 
 ### Ausdrücke III
 
-**Boolsche Ausdrücke** sind Ausdrücke die entweder Ja (`true`, `1`) oder Nein (`false`, `0`) ergeben.
+**Boolsche Ausdrücke** sind Ausdrücke die entweder Ja (`true`, `1`) oder Nein (`false`, `0`) ergeben. Bsp:
 
-Bsp: `i1 == 3`, `maximum < a`, `stop_loop != true`
+`i1 == 3`, `maximum < a`, `stop_loop != true`
 
-Abfragen repräsentieren Entscheidungen und müssen boolsche Ausdrücke enthalten.
+Abfragen repräsentieren Entscheidungen und _müssen_ boolsche Ausdrücke enthalten.
 
 +++
 
@@ -328,3 +328,37 @@ Abfragen repräsentieren Entscheidungen und müssen boolsche Ausdrücke enthalte
 Erstelle einen Programmablaufplan, der das Maximum der vier natürlichen Zahlen `a`, `b`, `c` und `d` ausgibt.
 
 +++
+
+### Felder (arrays)
+
+Ein Feld ist eine Variable die mehrere Werte speichern kann. Die Länge des Felds bestimmt die Anzahl der Werte. In C müssen bei der Deklaration Datentyp und Länge angegeben werden:
+
+Syntax: `Datentyp Feldname[Länge]`
+
+Bsp: `int eingabewerte[5]`, `Name a[3]`
+
+Das Feld `a` kann drei Werte speichern. Diese werden mit `a[0]`, `a[1]` und `a[2]` angesprochen. Die Zahl in der Klamme wird Index genannt.
+
++++
+
+### Felder und Indizes
+
+Wichtig:
+- Der erste Wert hat immer den Index `0`
+- Das letzte Wert einer Liste der Länge `n` hat immer den Wert `n-1`
+
+Syntax Wertzuweisung: `Feldname[Index] = Wert`
+
+Bsp: `a[0] = 253`
+
+Der Index kann auch eine Variable sein. Bsp:
+
+```
+int i
+i = 0 
+a[i] = 25
+```
+
+Einem Listenelement kann auch ein Ausdruck zugewiesen werden. Bsp:
+
+`a[i] = z+2`, `a[i+1] = b[j]+1`
