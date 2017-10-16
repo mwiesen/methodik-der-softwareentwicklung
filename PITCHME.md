@@ -250,12 +250,12 @@ Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
 ### Beispiele Datentyp
 
 - C: `short`, `int`, `float`, `double`, `char`
-- PAP: `Zahl`, `Index`, `Name`, `Wort`, `Satz`
-- Kommentare zur Variablendeklaration schaden nicht!
+- PAP: `Zahl`, `Index`, `Name`, `Wort`, `Satz`, `Zeichenkette`
+- Kommentare zur Variablendeklaration schaden nicht...
 
 +++
 
-### Beispiele Variablenname:
+### Beispiele Variablenname
 
 - `i1`, `pi`, `erster_buchstabe`, `maximum`, `vorname`
 - Alphanumerisch
@@ -263,3 +263,5 @@ Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
 - Keine Leerzeichen (besser: Unterstrich `_`)
 
 +++
+
+### Übung 2
