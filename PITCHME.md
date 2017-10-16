@@ -238,15 +238,15 @@ Die Syntax der Variablendeklaration ist daher wie folgt:
 
 ### Beispiele Datentyp
 
-PAP: `Zahl`, `Index`, `Name`, `Wort`, `Zeichenkette`, `Satz`
-
 C: `short`, `int`, `float`, `double`, `char`
+
+PAP: `Zahl`, `Index`, `Name`, `Wort`, `Satz`
 
 ### Beispiele Variablendeklaration
 
-`Zahl maximum`, `Index i`, `Name vorname` 
+C: `int i`, `float pi`, `char first_letter`
 
-`int i`, `float pi`, `char first_letter`
+PAP: `Zahl maximum`, `Index i`, `Name vorname` 
 
 +++
 
