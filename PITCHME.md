@@ -378,7 +378,7 @@ PAP einfügen
 
 ### Übung 3
 
-Erstelle einen Programm-ablaufplan, der das Maximum von 10 natürlichen Zahlen ausgibt.
+Erstelle einen Programmablaufplan, der das Maximum von 10 natürlichen Zahlen ausgibt.
 
 Übergeben wird ein Feld vom Typ Zahl der Länge 10
 
@@ -386,7 +386,7 @@ Erstelle einen Programm-ablaufplan, der das Maximum von 10 natürlichen Zahlen a
 
 ### Übung 4
 
-Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem Feld Liste enthalten ist.
+Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem Feld enthalten ist.
 
   Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
@@ -397,6 +397,8 @@ Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem 
 Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmter Name erstmals in einem Feld vorkommt.
 
   Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+
++++
 
 ### Übung 6
 
