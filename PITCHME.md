@@ -177,13 +177,11 @@ Formuliere Algorithmen in natürlicher Sprache
 
 - Ermöglichen unterschiedliche Reaktion auf Eingaben
 
-- Verzweigen Programmfluss nach Wenn-Dann-Prinzip
+- Verzweigen den Programmfluss nach dem Wenn-Dann-Prinzip
 
-- Exakt definiert. Enthaltene Ausdrücke müssen auf
+- Enthaltene Ausdrücke müssen auf Ja (`true`, `1`) oder Nein (`false`, `0`) auswerten
 
-  - Ja (`true` bzw. `1`) oder 
-  - Nein (`false` bzw. `0`) auswerten  
-    Bsp: `i == 10` oder `x < 5`
+- Bsp: `i == 10` oder `x < 5`
 
 +++?image=assets/images/papdef-schleife.png&size=40%
 
@@ -208,16 +206,202 @@ Formuliere Algorithmen in natürlicher Sprache
 
 ### Übung 1
 
-Erstelle einen Programmablaufplan, der das Maximum dreier Zahlen `a`, `b` und `c` ausgibt.
+Erstelle einen Programmablaufplan, der das Maximum dreier natürlicher Zahlen `a`, `b` und `c` ausgibt.
 
 +++
 
-### Übung 1 - Lösung A
+### Übung 1 - Lösung ohne Zwischenspeicher
 
 <img src="assets/images/ex-maxdreizahlen-a.png" style="width: auto; height: 550px">
 
 +++
 
-### Übung 1 - Lösung B
+### Übung 1 - Lösung mit Zwischenspeicher
 
 <img src="assets/images/ex-maxdreizahlen-b.png" style="width: auto; height: 550px">
+
++++
+
+### Variablen
+
+Variablen sind **Platzhalter** für einen Wert.
+
+C schafft diesen Platz (im RAM) bei der **Variablendeklaration**. Damit C den Wert der Variable korrekt interpretieren kann, müsst ihr zusätzlich einen **Datentyp** angegeben.
+
+Syntax: `Datentyp Variablenname`
+
++++
+
+
+### Beispiele Variablendeklaration
+
+`int i1` `float pi` `char erster_buchstabe` `Zahl maximum` `Index i2` `Name vorname` 
+
+Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
+
+`maximum = 3` `i1 > 0` `vorname == „Thomas“`
+
++++
+
+### Beispiele Datentyp
+
+- C: `short`, `int`, `float`, `double`, `char`
+- PAP: `Zahl`, `Index`, `Name`, `Wort`, `Satz`, `Zeichenkette`
+- Kommentare zur Variablendeklaration schaden nicht...
+
++++
+
+### Beispiele Variablenname
+
+- `i1`, `pi`, `erster_buchstabe`, `maximum`, `vorname`
+- Alphanumerisch
+- Klein geschrieben
+- Keine Leerzeichen (besser: Unterstrich `_`)
+
++++
+
+### Wertzuweisung I
+
+Nach der Deklaration haben Variablen noch keinen bestimmten Wert. Dieser muss ihnen erst zugewiesen werden.
+
+Syntax: `Variablenname = Wert`
+
+Bsp:  `maximum = 3`,  `vorname = „Stefan“`
+
+Einer Variable können beliebig oft (neue) Werte zugewiesen werden
+
+
++++
+
+### Wertzuweisung II
+
+Der Wert einer Variable kann einer anderen Variable zugewiesen werden.
+
+Bsp: `maximum = z`
+
+Hier wird der Wert von `z` `maximum` zugewiesen, d.h. `maximum` wird mit dem Wert von `z` überschrieben. Danach haben beiden Variablen den Wert von `z`.
+
+Wichtig: Es ändert sich _immer_ der Wert der _linken_ Variable, _nie_ der Wert der _rechten_ Variable!
+
++++
+
+### Ausdrücke I
+
+Einer Variable kann ein Wert durch die **Auswertung** eines **Ausdrucks** zugewiesen werden.
+
+Bsp:  `z = 5 + 7 - 3`
+
+Der Ausdruck `5 + 7 - 3` wird ausgewertet und ergibt den Wert `9`. Dieser wird dann der Variable `z` zugewiesen.
+
++++
+
+### Ausdrücke II
+
+Ausdrücke können Variablen beinhalten. Bsp:
+
+`maximum = z + 5`
+
+`maximum = (3 * z * z) + (5 * z) - 12`
+
+Eine Variable kann auch selbst in dem Ausdruck enthalten sein, der ihr zugewiesen wird:
+
+Bsp: `z = z + 1`
+
+Hier wird der Wert von `z` erst um `1` erhöht und dann `z` zugewiesen.
+
++++
+
+### Ausdrücke III
+
+**Boolsche Ausdrücke** sind Ausdrücke die entweder Ja (`true`, `1`) oder Nein (`false`, `0`) ergeben. Bsp:
+
+`i1 == 3`, `maximum < a`, `stop_loop != true`
+
+Abfragen repräsentieren Entscheidungen und _müssen_ boolsche Ausdrücke enthalten.
+
++++
+
+### Übung 2
+
+Erstelle einen Programmablaufplan, der das Maximum der vier natürlichen Zahlen `a`, `b`, `c` und `d` ausgibt.
+
++++
+
+### Felder (arrays)
+
+Ein Feld ist eine Variable die mehrere Werte speichern kann.
+
+Die Länge des Felds bestimmt die Anzahl der Werte. In C müssen bei der Deklaration Datentyp und Länge angegeben werden:
+
+Syntax: `Datentyp Feldname[Länge]`
+
++++
+
+### Beispiele Felddeklaration
+
+Bsp: `int eingabewerte[5]`, `Name a[3]`
+
+Das Feld `a` kann drei Werte speichern. Diese werden mit `a[0]`, `a[1]` und `a[2]` angesprochen. Die Zahl in der Klammer wird Index genannt.
+
+Wichtig:
+- Der erste Wert hat den Index `0` (nicht `1` !)
+- Das letzte Wert eines Felds der Länge `n` hat den Index `n-1` (nicht `n` !)
+
++++
+
+### Felder - Wertzuweisung
+
+Wie bei Variablen, können Feldern mit `=` Werte zugewiesen werden.
+
+Syntax: `Feldname[Index] = Wert`
+
+Bsp: `a[0] = 253`, `a[1] = 254` etc.
+
+Der Index kann auch eine Variable sein. Bsp:
+
+```
+int i = 0
+a[i] = 25
+```
+
++++
+
+### Felder und Schleifen
+
+Verwendet man für den Index eines Feldes eine Variable, die in einer Schleife alle Index-Werte durchläuft (z.B. von `0` bis `n-1`), so kann die Handhabung der im Feld gespeicherten Werte automatisiert werden. Bsp:
+
+```
+PAP einfügen
+```
+
++++
+
+### Übung 3
+
+Erstelle einen Programmablaufplan, der das Maximum von 10 natürlichen Zahlen ausgibt.
+
+Übergeben wird ein Feld vom Typ Zahl der Länge 10
+
++++
+
+### Übung 4
+
+Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem Feld enthalten ist.
+
+  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+
++++
+
+### Übung 5
+
+Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmter Name erstmals in einem Feld vorkommt.
+
+  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+
++++
+
+### Übung 6
+
+Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in einem Feld enthalten ist.
+
+  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
