@@ -405,3 +405,7 @@ Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmt
 Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in einem Feld enthalten ist.
 
   Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+
++++
+
+### Qualität 
