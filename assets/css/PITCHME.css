@@ -24,7 +24,6 @@ div.slide-background.present[data-background-hash]:not([data-background-hash*="p
 #start-ende, #start-ende + ul, #eingaben-ausgaben, #eingaben-ausgaben + ul, #operationen, #operationen + ul, #kommentare, #kommentare + ul, #abfragen, #abfragen + ul, #schleifen, #schleifen + ul, #unterprogramme, #unterprogramme + ul {
   padding-left: 35%;
   min-width: 75%;
-  background-position: 0% 50%;
 }
 
 /*
@@ -57,15 +56,13 @@ div.slide-background.present[data-background-hash]:not([data-background-hash*="p
   padding-left: 35%;
   min-width: 75%;
 }
-
+*/
 .reveal {
 }
 
 .reveal .slide-background {
   background-position: 0% 50%;
 }
-
-*/
 
 .reveal li code, .reveal p code {
     border-radius: 5px;
