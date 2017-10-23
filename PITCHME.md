@@ -420,6 +420,8 @@ Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmt
 
 +++?image=assets/images/ex-nameposition.png&size=auto 96%
 
++++
+
 ### Übung 7
 
 Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in einem Feld enthalten ist.
@@ -427,6 +429,8 @@ Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in e
   Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
 +++?image=assets/images/ex-nameanzahl.png&size=auto 96%
+
++++
 
 ### Qualität
 
