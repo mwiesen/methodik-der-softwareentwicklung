@@ -445,6 +445,7 @@ Addition zweier beliebig großer, natürlicher Zahlen:
 + 77444111000333222888 
 = 89789789901567790778 
 ```
+
 - Beide Zahlen sind natürlich und gleich lang
 
 +++
@@ -452,6 +453,7 @@ Addition zweier beliebig großer, natürlicher Zahlen:
 ### Übung 8 II
 
 - Erstelle einen PAP `addition`, dem zwei natürliche Zahlen als Feld (Ziffernfolge) übergeben werden und der die Summe der beiden Zahlen als Feld ausgibt. Dieser PAP soll an geeigneter Stelle das Unterprogramm `addiere` aufrufen.
+
 - Zur Vereinfachung hat die Einerstelle den Index `0`, die Zehnerstelle Index `1`, die Hunderterstelle Index `2` usw...
 
 +++
