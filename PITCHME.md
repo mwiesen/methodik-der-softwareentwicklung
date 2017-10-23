@@ -452,7 +452,9 @@ Addition zweier beliebig großer, natürlicher Zahlen:
 
 ### Übung 8 II
 
-- Erstelle einen PAP `addition`, dem zwei natürliche Zahlen als Feld (Ziffernfolge) übergeben werden und der die Summe der beiden Zahlen als Feld ausgibt. Dieser PAP soll an geeigneter Stelle das Unter-programm `addiere` aufrufen.
+- Erstelle einen PAP `addition`, dem zwei natürliche Zahlen als Feld (Ziffernfolge) übergeben werden und der die Summe der beiden Zahlen als Feld ausgibt.
+
+- `addition` soll an geeigneter Stelle das Unter-programm `addiere` aufrufen.
 
 - Zur Vereinfachung haben die Einerstellen den Index `0`, die Zehnerstellen Index `1`, die Hunderterstellen Index `2` usw...
 
@@ -461,7 +463,9 @@ Addition zweier beliebig großer, natürlicher Zahlen:
 ### Übung 8 II
 
 - Erstelle einen PAP `addiere`, der folgende Ziffern ein- bzw. ausgibt:
+
   - Eingabe: zwei Summanden und ein Übertrag
+
   - Ausgabe: eine Zehnerstelle (Übertrag) und eine Einerstelle.
 
 +++
