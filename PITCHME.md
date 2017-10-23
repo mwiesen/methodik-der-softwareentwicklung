@@ -418,6 +418,8 @@ Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmt
 
   Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
++++?image=assets/images/ex-nameposition.png&size=auto 96%
+
 +++
 
 ### Übung 7
@@ -426,8 +428,48 @@ Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in e
 
   Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
++++?image=assets/images/ex-nameanzahl.png&size=auto 96%
+
 +++
 
 ### Qualität
+
++++
+
+### Übung 8
+
+Addition zweier beliebig großer, natürlicher Zahlen:
+
+```
+    12345678901234567890
++ 77444111000333222888 
+= 89789789901567790778 
+```
+
+- Beide Zahlen sind natürlich und gleich lang
+
++++
+
+### Übung 8 II
+
+- Erstelle einen PAP `addition`, dem zwei natürliche Zahlen als Feld (Ziffernfolge) übergeben werden und der die Summe der beiden Zahlen als Feld ausgibt.
+
+- `addition` soll an geeigneter Stelle das Unter-programm `addiere` aufrufen.
+
+- Zur Vereinfachung haben die Einerstellen den Index `0`, die Zehnerstellen Index `1`, die Hunderterstellen Index `2` usw...
+
++++
+
+### Übung 8 III
+
+- Erstelle einen PAP `addiere`, der folgende Ziffern ein- bzw. ausgibt:
+
+  - Eingabe: zwei Summanden und ein Übertrag
+
+  - Ausgabe: eine Zehnerstelle (Übertrag) und eine Einerstelle.
+
++++?image=assets/images/ex-addition.png&size=auto 96%
+
++++?image=assets/images/ex-addiere.png&size=auto 96%
 
 +++
