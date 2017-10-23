@@ -460,8 +460,8 @@ Addition zweier beliebig großer, natürlicher Zahlen:
 
 ### Übung 8 II
 
-- Erstelle einen PAP `addiere`, der:
-  - drei Ziffern als Eingabe nimmt: zwei Summanden und ein Übertrag
-  - zwei Ziffern ausgibt: eine Zehnerstelle (Übertrag) und eine Einerstelle.
+- Erstelle einen PAP `addiere`, der folgende Ziffern ein- bzw. ausgibt:
+  - Eingabe: zwei Summanden und ein Übertrag
+  - Ausgabe: eine Zehnerstelle (Übertrag) und eine Einerstelle.
 
 +++
