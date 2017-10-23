@@ -388,7 +388,7 @@ Erstelle einen Programmablaufplan, der das Maximum von `10` natürlichen Zahlen 
 
 Übergeben wird ein Feld vom Typ Zahl der Länge `10`
 
-+++?image=assets/images/ex-max10zahlen.png&size=auto
++++?image=assets/images/ex-max10zahlen.png&size=cover
 
 +++
 
@@ -408,7 +408,7 @@ Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem 
 
   Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
-+++?image=assets/images/ex-nameenthalten.png&size=auto 90%
++++?image=assets/images/ex-nameenthalten.png&size=auto 98%
 
 +++
 
