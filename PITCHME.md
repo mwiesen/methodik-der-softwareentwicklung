@@ -231,11 +231,9 @@ Syntax: `Datentyp Variablenname`
 
 `int i1` `float pi` `char erster_buchstabe` `Zahl maximum` `Index i2` `Name vorname` 
 
-Danach könnt ihr die Variable verwenden:
-
-Bsp. in Operation: `maximum = 3`
-
-Bsp. in Abfragen: `i1 > 0` `vorname == „Thomas“`
+Danach könnt ihr die Variable verwenden. Bsp:
+- In Operation: `maximum = 3`
+- In Abfragen: `i1 > 0` `vorname == „Thomas“`
 
 +++
 
@@ -386,9 +384,9 @@ PAP einfügen
 
 ### Übung 3
 
-Erstelle einen Programmablaufplan, der das Maximum von 10 natürlichen Zahlen ausgibt.
+Erstelle einen Programmablaufplan, der das Maximum von `10` natürlichen Zahlen ausgibt.
 
-Übergeben wird ein Feld vom Typ Zahl der Länge 10
+Übergeben wird ein Feld vom Typ Zahl der Länge `10`
 
 +++
 
@@ -400,9 +398,9 @@ Erstelle einen Programmablaufplan, der das Maximum von 10 natürlichen Zahlen au
 
 ### Übung 4
 
-Erstelle einen Programmablaufplan, der das Maximum von n natürlichen Zahlen ausgibt.
+Erstelle einen Programmablaufplan, der das Maximum von `n` natürlichen Zahlen ausgibt.
 
-Übergeben wird ein Feld vom Typ Zahl der Länge n
+Übergeben wird ein Feld vom Typ Zahl der Länge `n`
 
 +++
 
