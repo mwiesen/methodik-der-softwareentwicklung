@@ -435,3 +435,29 @@ Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in e
 ### Qualität
 
 +++
+
+### Übung 8
+
+Addition zweier beliebig großer, natürlicher Zahlen:
+
+```
+    12345678901234567890
++ 77444111000333222888 
+= 89789789901567790778 
+```
+- Beide Zahlen sind natürlich und gleich lang
+
++++
+
+### Übung 8 II
+
+- Erstelle einen PAP `addition`, dem zwei natürliche Zahlen als Feld (Ziffernfolge) übergeben werden und der die Summe der beiden Zahlen als Feld ausgibt. Dieser PAP soll an geeigneter Stelle das Unterprogramm `addiere` aufrufen.
+- Zur Vereinfachung hat die Einerstelle den Index `0`, die Zehnerstelle Index `1`, die Hunderterstelle Index `2` usw...
+
++++
+
+### Übung 8 II
+
+- Erstelle einen PAP `addiere`, der drei Ziffern als Eingabe nimmt (zwei Summanden und ein Übertrag) und zwei Ziffern (Zehnerstelle (Übertrag) und Einerstelle) ausgibt.
+
++++
