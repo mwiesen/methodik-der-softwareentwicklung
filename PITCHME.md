@@ -206,19 +206,13 @@ Formuliere Algorithmen in natürlicher Sprache
 
 ### Übung 1
 
-Erstelle einen Programmablaufplan, der das Maximum dreier natürlicher Zahlen `a`, `b` und `c` ausgibt.
+Erstelle einen Programmablaufplan, der das Maximum zweier natürlicher Zahlen `a` und `b` ausgibt.
 
 +++
 
-### Übung 1 - Lösung ohne Zwischenspeicher
+### Übung 1 - Lösung
 
-<img src="assets/images/ex-maxdreizahlen-a.png" style="width: auto; height: 550px">
-
-+++
-
-### Übung 1 - Lösung mit Zwischenspeicher
-
-<img src="assets/images/ex-maxdreizahlen-b.png" style="width: auto; height: 550px">
+<img src="assets/images/ex-max2zahlen.png" style="width: auto; height: 550px">
 
 +++
 
@@ -237,9 +231,11 @@ Syntax: `Datentyp Variablenname`
 
 `int i1` `float pi` `char erster_buchstabe` `Zahl maximum` `Index i2` `Name vorname` 
 
-Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
+Danach könnt ihr die Variable verwenden:
 
-`maximum = 3` `i1 > 0` `vorname == „Thomas“`
+Bsp. in Operation: `maximum = 3`
+
+Bsp. in Abfragen: `i1 > 0` `vorname == „Thomas“`
 
 +++
 
@@ -256,7 +252,7 @@ Danach könnt ihr die Variable in Operationen und Abfragen verwenden:
 - `i1`, `pi`, `erster_buchstabe`, `maximum`, `vorname`
 - Alphanumerisch
 - Klein geschrieben
-- Keine Leerzeichen (besser: Unterstrich `_`)
+- Keine Leerzeichen (besser: Unterstrich `_` oder Bindestrich `-`)
 
 +++
 
@@ -279,7 +275,7 @@ Der Wert einer Variable kann einer anderen Variable zugewiesen werden.
 
 Bsp: `maximum = z`
 
-Hier wird der Wert von `z` `maximum` zugewiesen, d.h. `maximum` wird mit dem Wert von `z` überschrieben. Danach haben beiden Variablen den Wert von `z`.
+Hier wird der Wert von `z` der Variable `maximum` zugewiesen. D.h. `maximum` wird mit dem Wert von `z` überschrieben. Danach haben beiden Variablen den Wert von `z`.
 
 Wichtig: Es ändert sich _immer_ der Wert der _linken_ Variable, _nie_ der Wert der _rechten_ Variable!
 
@@ -323,7 +319,19 @@ Abfragen repräsentieren Entscheidungen und _müssen_ boolsche Ausdrücke enthal
 
 ### Übung 2
 
-Erstelle einen Programmablaufplan, der das Maximum der vier natürlichen Zahlen `a`, `b`, `c` und `d` ausgibt.
+Erstelle einen Programmablaufplan, der das Maximum dreier natürlicher Zahlen `a`, `b` und `c` ausgibt.
+
++++
+
+### Übung 2 - Lösung ohne Zwischenspeicher
+
+<img src="assets/images/ex-max3zahlen-a.png" style="width: auto; height: 550px">
+
++++
+
+### Übung 2 - Lösung mit Zwischenspeicher
+
+<img src="assets/images/ex-max3zahlen-b.png" style="width: auto; height: 550px">
 
 +++
 
@@ -384,7 +392,27 @@ Erstelle einen Programmablaufplan, der das Maximum von 10 natürlichen Zahlen au
 
 +++
 
+### Übung 3 - Lösung
+
+<img src="assets/images/ex-max10zahlen.png" style="width: auto; height: 550px">
+
++++
+
 ### Übung 4
+
+Erstelle einen Programmablaufplan, der das Maximum von n natürlichen Zahlen ausgibt.
+
+Übergeben wird ein Feld vom Typ Zahl der Länge n
+
++++
+
+### Übung 4 - Lösung
+
+<img src="assets/images/ex-maxnzahlen.png" style="width: auto; height: 550px">
+
++++
+
+### Übung 5
 
 Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem Feld enthalten ist.
 
@@ -392,7 +420,13 @@ Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem 
 
 +++
 
-### Übung 5
+### Übung 5 - Lösung
+
+<img src="assets/images/ex-nameenthalten.png" style="width: auto; height: 550px">
+
++++
+
+### Übung 6
 
 Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmter Name erstmals in einem Feld vorkommt.
 
@@ -400,7 +434,7 @@ Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmt
 
 +++
 
-### Übung 6
+### Übung 7
 
 Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in einem Feld enthalten ist.
 
