@@ -454,7 +454,7 @@ Addition zweier beliebig großer, natürlicher Zahlen:
 
 - Erstelle einen PAP `addition`, dem zwei natürliche Zahlen als Feld (Ziffernfolge) übergeben werden und der die Summe der beiden Zahlen als Feld ausgibt. Dieser PAP soll an geeigneter Stelle das Unter-programm `addiere` aufrufen.
 
-- Zur Vereinfachung hat die Einerstelle den Index `0`, die Zehnerstelle Index `1`, die Hunderterstelle Index `2` usw...
+- Zur Vereinfachung haben die Einerstellen den Index `0`, die Zehnerstellen Index `1`, die Hunderterstellen Index `2` usw...
 
 +++
 
