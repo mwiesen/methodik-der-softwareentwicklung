@@ -441,9 +441,9 @@ Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in e
 Addition zweier beliebig großer, natürlicher Zahlen:
 
 ```
-    12345678901234567890  
-+ 77444111000333222888   
-= 89789789901567790778   
+  12345678901234567890  
++ 77444111000333222888
+= 89789789901567790778
 ```
 
 - Beide Zahlen sind natürlich und gleich lang
