@@ -390,8 +390,6 @@ Erstelle einen Programmablaufplan, der das Maximum von `10` natürlichen Zahlen 
 
 Übergeben wird ein Feld vom Typ Zahl der Länge `10`
 
-+++?image=assets/images/ex-max10zahlen.png&size=auto 96%
-
 +++
 
 ### Übung 4
@@ -399,8 +397,6 @@ Erstelle einen Programmablaufplan, der das Maximum von `10` natürlichen Zahlen 
 Erstelle einen Programmablaufplan, der das Maximum von `n` natürlichen Zahlen ausgibt.
 
 Übergeben wird ein Feld vom Typ Zahl der Länge `n`
-
-+++?image=assets/images/ex-maxnzahlen.png&size=auto 96%
 
 +++
 
@@ -410,8 +406,6 @@ Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem 
 
 Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
-+++?image=assets/images/ex-nameenthalten.png&size=auto 96%
-
 +++
 
 ### Übung 6
@@ -420,8 +414,6 @@ Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmt
 
 Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
-+++?image=assets/images/ex-nameposition.png&size=auto 96%
-
 +++
 
 ### Übung 7
@@ -429,8 +421,6 @@ Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmt
 Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in einem Feld enthalten ist.
 
 Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
-
-+++?image=assets/images/ex-nameanzahl.png&size=auto 96%
 
 +++
 
@@ -469,9 +459,3 @@ Addition zweier beliebig großer, natürlicher Zahlen:
   - Eingabe: zwei Summanden und ein Übertrag
 
   - Ausgabe: eine Zehnerstelle (Übertrag) und eine Einerstelle.
-
-+++?image=assets/images/ex-addition.png&size=auto 96%
-
-+++?image=assets/images/ex-addiere.png&size=auto 96%
-
-+++
