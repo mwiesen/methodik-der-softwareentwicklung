@@ -1,22 +1,5 @@
 ###### Methodik der Softwareentwicklung
 
-# Programmablauf- pläne (flowcharts)
-
-+++
-
-### Abgrenzung
-
-- Methodik der Softwareentwicklung
-  - Algorithmen entwerfen
-  - Fehler finden
-- Algorithmen und Datenstrukturen
-  - Algorithmen beurteilen (Speicherplatzbedarf, Geschwindigkeit, ...)
-  - Alogrithmen verbessern
-- C
-  - Algorithmen implementieren
-
----
-
 # Algorithmen
 
 +++
@@ -28,6 +11,25 @@
 > Algorithmen bestehen aus _endlich vielen_, _wohldefinierten Einzelschritten_.
 > Damit können sie zur Ausführung in einem Computer-programm implementiert, aber auch in menschlicher Sprache formuliert werden.
 > Bei der Problemlösung wird eine bestimmte Eingabe in eine bestimmte Ausgabe überführt.
+
++++
+
+### Abgrenzung (i)
+
+- Methodik der Softwareentwicklung
+  - Algorithmen entwerfen
+  - Fehler finden
+
++++
+
+### Abgrenzung (ii)
+
+- Algorithmen und Datenstrukturen
+  - Algorithmen beurteilen (Speicherplatzbedarf, Geschwindigkeit, ...)
+  - Algorithmen verbessern
+
+- C
+  - Algorithmen implementieren
 
 +++
 
@@ -45,7 +47,7 @@
 
 - Endlichkeit (Finitheit), siehe auch [Komplexität](https://de.wikipedia.org/wiki/Komplexität_%28Informatik%29)
   - Statisch: Der Algorithmus hat endlich viele Schritte
-  - Dynamisch: Der Algorithmus läuft mit endlich viel Prozessor- und Speicherkapazität
+  - Dynamisch: Der Algorithmus läuft mit endlich viel Prozessor- und Speicherkapazität
 
 - Terminiertheit
   - Der Algorithmus endet für jede Eingabe
@@ -78,16 +80,19 @@
 
 ### Übung
 
-
 Formuliere Algorithmen in natürlicher Sprache
 
+@ul
 - Ein Bad nehmen
 - Aufbackpizza backen
 - Straße überqueren
+@ulend
 
 ---
 
-# Programmablauf- pläne
+###### Methodik der Softwareentwicklung
+
+# Programmablauf- pläne (flowcharts)
 
 +++
 
@@ -120,15 +125,20 @@ Formuliere Algorithmen in natürlicher Sprache
 
 - Genormt in DIN 66001
 
-+++?image=assets/images/papdef-startende.png&size=40%
++++?image=assets/images/papdef-startende.png&size=contain
+
++++
 
 ### Start / Ende
 
+@ul[](false)
 - Kommen jeweils genau einmal vor
-
 - Name nicht vergessen
+@ulend
 
-+++?image=assets/images/papdef-eingabeausgabe.png&size=40%
++++?image=assets/images/papdef-eingabeausgabe.png&size=contain
+
++++
 
 ### Eingaben / Ausgaben
 
@@ -138,12 +148,14 @@ Formuliere Algorithmen in natürlicher Sprache
 
 - Ausgaben typischerweise per Monitor
 
-- Wichtig: Eingaben einen Namen zuweisen 
+- Wichtig: Eingaben einen Namen zuweisen
   - Braucht ihr in Operationen
-  - Gut: "Zahlen `a`, `b` und `c`" 
+  - Gut: "Zahlen `a`, `b` und `c`"
   - Schlecht: "3 Zahlen"
 
-+++?image=assets/images/papdef-operation.png&size=40%
++++?image=assets/images/papdef-operation.png&size=contain
+
++++
 
 ### Operationen
 
@@ -157,7 +169,9 @@ Formuliere Algorithmen in natürlicher Sprache
   2. Wertzuweisung (Bsp: `i = 3`)
   3. Beides gleichzeitig (Bsp: `int i = 3`)
 
-+++?image=assets/images/papdef-kommentar.png&size=49%
++++?image=assets/images/papdef-kommentar.png&size=contain
+
++++
 
 ### Kommentare
 
@@ -171,7 +185,9 @@ Formuliere Algorithmen in natürlicher Sprache
 
 - Können ToDos für die Weiterentwicklung enthalten
 
-+++?image=assets/images/papdef-abfrage.png&size=40%
++++?image=assets/images/papdef-abfrage.png&size=contain
+
++++
 
 ### Abfragen
 
@@ -183,7 +199,9 @@ Formuliere Algorithmen in natürlicher Sprache
 
 - Bsp: `i == 10` oder `x < 5`
 
-+++?image=assets/images/papdef-schleife.png&size=40%
++++?image=assets/images/papdef-schleife.png&size=contain
+
++++
 
 ### Schleifen
 
@@ -192,7 +210,9 @@ Formuliere Algorithmen in natürlicher Sprache
 - Kopfgesteuert: erst Abbruchbedingung testen
 - Fußgesteuert: erst Schleifeninhalt ausführen
 
-+++?image=assets/images/papdef-unterprogramm.png&size=40%
++++?image=assets/images/papdef-unterprogramm.png&size=contain
+
++++
 
 ### Unterprogramme
 
@@ -210,12 +230,6 @@ Erstelle einen Programmablaufplan, der das Maximum zweier natürlicher Zahlen `a
 
 +++
 
-### Übung 1 - Lösung
-
-<img src="assets/images/ex-max2zahlen.png" style="width: auto; height: 550px">
-
-+++
-
 ### Variablen
 
 Variablen sind **Platzhalter** für einen Wert.
@@ -229,7 +243,7 @@ Syntax: `Datentyp Variablenname`
 
 ### Beispiele Variablendeklaration
 
-`int i1` `float pi` `char erster_buchstabe` `Zahl maximum` `Index i2` `Name vorname` 
+`int i1` `float pi` `char erster_buchstabe` `Zahl maximum` `Index i2` `Name vorname`
 
 Danach könnt ihr die Variable verwenden. Bsp:
 - In Operation: `maximum = 3`
@@ -321,18 +335,6 @@ Erstelle einen Programmablaufplan, der das Maximum dreier natürlicher Zahlen `a
 
 +++
 
-### Übung 2 - Lösung ohne Zwischenspeicher
-
-<img src="assets/images/ex-max3zahlen-a.png" style="width: auto; height: 550px">
-
-+++
-
-### Übung 2 - Lösung mit Zwischenspeicher
-
-<img src="assets/images/ex-max3zahlen-b.png" style="width: auto; height: 550px">
-
-+++
-
 ### Felder (arrays)
 
 Ein Feld ist eine Variable die mehrere Werte speichern kann.
@@ -406,7 +408,7 @@ Erstelle einen Programmablaufplan, der das Maximum von `n` natürlichen Zahlen a
 
 Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem Feld enthalten ist.
 
-  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
 +++?image=assets/images/ex-nameenthalten.png&size=auto 96%
 
@@ -416,7 +418,7 @@ Erstelle einen Programmablaufplan, der ausgibt, ob ein bestimmter Name in einem 
 
 Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmter Name erstmals in einem Feld vorkommt.
 
-  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
 +++?image=assets/images/ex-nameposition.png&size=auto 96%
 
@@ -426,7 +428,7 @@ Erstelle einen Programmablaufplan, der ausgibt, an welcher Position ein bestimmt
 
 Erstelle einen Programmablaufplan, der ausgibt, wie oft ein bestimmter Name in einem Feld enthalten ist.
 
-  Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
+Übergeben wird ein Feld mit `n` Namen, sowie der gesuchte Name.
 
 +++?image=assets/images/ex-nameanzahl.png&size=auto 96%
 
